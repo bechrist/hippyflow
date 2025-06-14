@@ -91,7 +91,6 @@ class LinearStateObservable:
 	def mpi_comm(self):
 		return self.B.mpi_comm()
 
-
 	def generate_vector(self, component = "ALL"):
 		"""
 		By default, return the list :code:`[u,m,p]` where:
